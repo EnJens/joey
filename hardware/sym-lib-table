@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name XC6206P25)(type Legacy)(uri ${KIPRJMOD}/lib/XC6206P25.lib)(options "")(descr ""))
+  (lib (name Lattice_ECP5_LFE5U-cabga256)(type Legacy)(uri ${KIPRJMOD}/lib/Lattice_ECP5_LFE5U-cabga256.lib)(options "")(descr ""))
+  (lib (name M3406)(type Legacy)(uri ${KIPRJMOD}/lib/M3406.lib)(options "")(descr ""))
+)
