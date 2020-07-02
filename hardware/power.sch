@@ -131,13 +131,6 @@ $EndComp
 Wire Wire Line
 	2800 3700 3100 3700
 Connection ~ 3550 3700
-Wire Wire Line
-	3550 3700 3800 3700
-Wire Wire Line
-	3800 3800 3800 3700
-Connection ~ 3800 3700
-Wire Wire Line
-	3800 3700 4200 3700
 $Comp
 L power:GND #PWR0201
 U 1 1 5EFD6262
@@ -229,8 +222,6 @@ Connection ~ 6200 4250
 Wire Wire Line
 	6900 3750 6900 3700
 Connection ~ 6900 3700
-Wire Wire Line
-	3800 3800 4200 3800
 $Comp
 L M3406:M2406-ADJ U202
 U 1 1 5EFECA05
@@ -316,13 +307,6 @@ F 3 "~" H 3550 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3550 4950
-Wire Wire Line
-	3550 4950 3800 4950
-Wire Wire Line
-	3800 5050 3800 4950
-Connection ~ 3800 4950
-Wire Wire Line
-	3800 4950 4200 4950
 $Comp
 L power:GND #PWR0202
 U 1 1 5EFECA39
@@ -389,8 +373,6 @@ Wire Wire Line
 	5700 5050 5700 4950
 Connection ~ 5700 4950
 Wire Wire Line
-	3800 5050 4200 5050
-Wire Wire Line
 	5700 4950 5850 4950
 $Comp
 L power:+1V1 #PWR0205
@@ -416,4 +398,43 @@ Wire Wire Line
 Connection ~ 3100 3700
 Wire Wire Line
 	3100 3700 3550 3700
+Wire Wire Line
+	3550 4950 4200 4950
+Wire Wire Line
+	3550 3700 4200 3700
+Wire Wire Line
+	4200 5050 3900 5050
+Wire Wire Line
+	3900 5050 3900 5750
+Wire Wire Line
+	3900 5750 1850 5750
+Wire Wire Line
+	4200 3800 4150 3800
+Wire Wire Line
+	4150 3800 4150 4350
+Wire Wire Line
+	4150 4350 1850 4350
+Wire Wire Line
+	1850 4350 1850 5750
+Connection ~ 1850 4350
+Text HLabel 1450 4350 0    50   Input ~ 0
+ENABLE
+Wire Wire Line
+	1450 4350 1600 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5F2149D1
+P 1600 4600
+F 0 "#PWR?" H 1600 4350 50  0001 C CNN
+F 1 "GND" H 1605 4427 50  0000 C CNN
+F 2 "" H 1600 4600 50  0001 C CNN
+F 3 "" H 1600 4600 50  0001 C CNN
+	1    1600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4350 1600 4600
+Connection ~ 1600 4350
+Wire Wire Line
+	1600 4350 1850 4350
 $EndSCHEMATC
