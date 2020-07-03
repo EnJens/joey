@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 4
-Title ""
+Title "Joey"
 Date ""
 Rev ""
 Comp ""
@@ -57,10 +57,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 3050 2850 3050
 $Comp
-L Device:R_Small R?
+L Device:R_Small R101
 U 1 1 5F23B182
 P 2950 3050
-F 0 "R?" V 3054 3050 50  0000 C CNN
+F 0 "R101" V 3054 3050 50  0000 C CNN
 F 1 "0R" V 3145 3050 50  0000 C CNN
 F 2 "" H 2950 3050 50  0001 C CNN
 F 3 "~" H 2950 3050 50  0001 C CNN

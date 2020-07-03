@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S3D25.000000A20F30T
+D 3.3V CMOS SMD Crystal Clock Oscillator, Abracon
+K 3.3V CMOS SMD Crystal Clock Oscillator
+F http://www.abracon.com/Oscillators/ASV.pdf
+$ENDCMP
+#
+#End Doc Library

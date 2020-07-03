@@ -3,4 +3,5 @@
   (lib (name Lattice_ECP5_LFE5U-cabga256)(type Legacy)(uri ${KIPRJMOD}/lib/Lattice_ECP5_LFE5U-cabga256.lib)(options "")(descr ""))
   (lib (name M3406)(type Legacy)(uri ${KIPRJMOD}/lib/M3406.lib)(options "")(descr ""))
   (lib (name power_extra)(type Legacy)(uri ${KIPRJMOD}/lib/power_extra.lib)(options "")(descr ""))
+  (lib (name oscilator)(type Legacy)(uri ${KIPRJMOD}/lib/oscilator.lib)(options "")(descr ""))
 )
